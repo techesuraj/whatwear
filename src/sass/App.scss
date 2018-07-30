@@ -1,0 +1,17 @@
+@import '_navigation';
+@import '_color';
+body{
+  font-family: 'CircularStd-Black',sans-serif
+}
+.App {
+  text-align: center;
+}
+
+@font-face{
+  font-family:'CircularStd-Black';
+  src: url('../assets/fonts/CircularStd-Black.otf');
+}
+@font-face{
+  font-family:'CircularStd-Medium';
+  src: url('../assets/fonts/CircularStd-Medium.otf');
+}

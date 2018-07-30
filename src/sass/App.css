@@ -1,0 +1,45 @@
+.navbar {
+  background: #211d2d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.navbar a {
+  text-decoration: none;
+  color: #FBCF32;
+  font-size: 36px; }
+
+.searchbar input {
+  padding: 15px 200px 15px 10px;
+  border-radius: 7px;
+  border-style: none;
+  background: #FF7A78;
+  font-size: 14px; }
+
+.searchbar input::placeholder {
+  color: #F1F1F1;
+  font-size: 14px; }
+
+.navbar-group {
+  list-style-type: none;
+  color: #ffff;
+  display: flex;
+  margin-right: 100px; }
+
+.navbar-group .navbar-group-link {
+  padding: 15px; }
+
+body {
+  font-family: 'CircularStd-Black',sans-serif; }
+
+.App {
+  text-align: center; }
+
+@font-face {
+  font-family: 'CircularStd-Black';
+  src: url("../assets/fonts/CircularStd-Black.otf"); }
+
+@font-face {
+  font-family: 'CircularStd-Medium';
+  src: url("../assets/fonts/CircularStd-Medium.otf"); }
