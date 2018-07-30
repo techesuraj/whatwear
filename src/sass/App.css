@@ -30,6 +30,29 @@
 .navbar-group .navbar-group-link {
   padding: 15px; }
 
+.shirt-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid pink;
+  max-width: 200px;
+  height: 300px; }
+
+.shirt-container .shirt-image {
+  width: 200px; }
+
+.shirt-container button {
+  background: #FBCF32;
+  border-radius: 7px;
+  /* Wore Yesterday: */
+  font-family: CircularStd-Book;
+  width: 100px;
+  padding: 15px 5px 10px 20px;
+  font-size: 20px;
+  color: #302D2C;
+  letter-spacing: -0.6px;
+  text-align: left; }
+
 body {
   font-family: 'CircularStd-Black',sans-serif; }
 
