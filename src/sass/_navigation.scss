@@ -2,12 +2,20 @@
   background:#211d2d;
   display:flex;
   flex-direction: row;
+  
   justify-content: space-between;
   align-items: center;
+  .what-logo{
+    text-decoration:none;
+    color:#FBCF32;
+    font-size:30px;
+    margin-left:10px;
+  }
   a {
     text-decoration:none;
     color:#FBCF32;
-    font-size:36px;
+    font-size:14px;
+    margin-left:10px;
     
   }
 }
@@ -22,6 +30,9 @@
     &::placeholder{
       color:#F1F1F1;
       font-size:14px;
+    }
+    &:focus{
+      outline:none;
     }
   }
 }

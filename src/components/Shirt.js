@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Shirt = () => {
+const Shirt = (props) => {
+
   return (
-    <div className="shirt-container">
-      <img className="shirt-image" src="https://res.cloudinary.com/techeteche/image/upload/c_mpad,h_257,w_171/v1532932289/shirt1_cwnwsa.jpg" alt="Cheetah Shirt"/>
+    <li className="shirt-container">
+      <img className="shirt-image" src={props.details.image} alt={props.details.name}/>
       <button>Wear</button>
-    </div>
+    </li>
   );
 }
 export default Shirt;

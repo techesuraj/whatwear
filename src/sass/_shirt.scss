@@ -1,23 +1,45 @@
+.shirts-list{
+  margin:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .shirt-container{
   margin:30px;
   display: flex;
+  position: relative;
   flex-direction: column;
-  border:1px solid pink;
+  border:0;
   max-width:200px;
-  height: 300px;
+ 
+
   .shirt-image{
     width: 200px;
   }
   button{
+    display: flex;
     background: #FBCF32;
     border-radius: 7px;
 /* Wore Yesterday: */
+    position: absolute;
     font-family: CircularStd-Book;
-    width: 100px;
-    padding:15px 5px 10px 20px;
+    width: 80px;
+    padding:8px 5px 8px 20px;
     font-size: 20px;
     color: #302D2C;
     letter-spacing: -0.6px;
     text-align: left;
+    top:75%;
+    right: 55%;
+    border:0;
+
+    &:hover{
+      background:#FA198B;
+      color: #FFF;
+    }
+    &:focus{
+      outline: none;
+    }
   }
 }
